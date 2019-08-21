@@ -54,11 +54,13 @@ public class SpeciesIndividual {
     }
     void printRate()
     {
-        System.out.print("最短路线：");
+        System.out.print("city data set is: eil51"+"\n");
+
+        System.out.print("the shortest route is：");
         for(int i=0;i<genes.length;i++)
             System.out.print(genes[i]+"->");
         System.out.print(genes[0]+"\n");
-        System.out.print("最短长度：" + distance);
+        System.out.print("the shortest path is：" + distance);
     }
 
 }
